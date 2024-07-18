@@ -65,7 +65,7 @@ section#home {
     background-color: #ff00cc;
     border-radius: 6px;
     border: none;
-    opacity:0.7;
+    opacity:0.3;
     cursor: pointer;
     transition: background-color 0.3s ease-out;
     margin: 10px;
