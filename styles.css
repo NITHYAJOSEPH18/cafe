@@ -69,6 +69,9 @@ section#home {
     transition: background-color 0.3s ease-out;
     margin: 10px;
 }
+.button:hover{
+    background-color: #5c2cff;
+ }
 
 section#menu {
     background-color: rgba(255, 228, 225, 0.39);
