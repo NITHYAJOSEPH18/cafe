@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://images.squarespace-cdn.com/content/v1/627e9b484c279f3fefd7f2c1/027c7f3a-0fae-48a1-a001-c69701cd9aca/Coffee+Shop+%26+Bakery+Set+1+TV%2C+FILM%2C+PRODUCTION%2C+UNREAL+ENGINE%2C+L.A.+CASTLE+STUDIOS.jpg?format=2500w') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    background-color: rgba(183, 28, 230, 0.39);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+section#home {
+    background-color: rgba(255, 228, 225, 0.39);
+    padding: 50px 20px;
+}
+
+.cursive-text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    color: #ff6347;
+}
+
+section#menu {
+    background-color: rgba(255, 228, 225, 0.39);
+}
+
+.menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.item h3 {
+    margin: 10px 0;
+    color: #ff6347;
+}
+
+footer {
+    background-color: rgba(183, 28, 230, 0.39);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
